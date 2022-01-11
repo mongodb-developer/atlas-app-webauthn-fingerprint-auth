@@ -9,7 +9,7 @@ cd realm-webauthn-fingerprint-auth
 npm install
 ```
 
-Create the `.env` file in the main project with the Atlas DATA API details and origin URL details:
+Create the `.env` file in the main project with the Atlas DATA API details and allowed origin URL details:
 ```
 DATA_API_KEY=<API-KEY>
 DATA_API_BASE_URL=<DATA-API-BASE-URL>
