@@ -23,3 +23,7 @@ npm build & npm run dev-server
 ```
 
 Website is on http://localhost:3001
+
+## Disclaimer
+
+Use at your own risk; not a supported MongoDB product
