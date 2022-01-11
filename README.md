@@ -1,5 +1,5 @@
 # realm-webauthn-fingerprint-auth
-A demo application to showcase how to use Realm, Atlas and WebAuthn package to fingerprint authenticate users on websites
+A demo application to showcase how to use Realm, Atlas and [WebAuthn](https://webauthn.guide/) package to fingerprint authenticate users on websites
 
 Require a finger print reader device on the running demo host. Tested on Chrome web browser.
 
@@ -9,7 +9,7 @@ cd realm-webauthn-fingerprint-auth
 npm install
 ```
 
-Create the `.env` file in the main project with the DATA API and origin URL details:
+Create the `.env` file in the main project with the Atlas DATA API details and origin URL details:
 ```
 DATA_API_KEY=<API-KEY>
 DATA_API_BASE_URL=<DATA-API-BASE-URL>
