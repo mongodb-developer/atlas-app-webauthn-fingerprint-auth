@@ -5,7 +5,7 @@ Require a finger print reader device on the running demo host. Tested on Chrome 
 
 ## Install
 ```
-cd realm-webauthn-fingerprint-auth
+cd realm-webauthn-fingerprint-auth/example
 npm install
 ```
 
