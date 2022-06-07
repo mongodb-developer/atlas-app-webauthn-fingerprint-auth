@@ -7,7 +7,7 @@ Require a finger print reader device on the running demo host. Tested on Chrome 
 - [Create](https://www.mongodb.com/docs/atlas/getting-started/) an Atlas cluster
 - Enable [DATA API](https://www.mongodb.com/docs/atlas/api/data-api/)
 - [Create](https://www.mongodb.com/docs/atlas/app-services/manage-apps/create/create-with-ui/) app services application, [find](https://www.mongodb.com/docs/atlas/app-services/reference/find-your-project-or-app-id/#find-an-app-id) its APP ID..
-- Enable function auth with the follwing function:
+- Enable function auth on the created app with the follwing function:
 ```
  exports = async (loginPayload) => {
  
