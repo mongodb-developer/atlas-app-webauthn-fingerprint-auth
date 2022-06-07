@@ -31,6 +31,7 @@ Create the `.env` file in the main project with the Atlas DATA API details and a
 DATA_API_KEY=<API-KEY>
 DATA_API_BASE_URL=<DATA-API-BASE-URL>
 CLUSTER_NAME=<CLUSTER-NAME>
+APP_ID=<APP-SERVICES-APP-ID>
 ORIGIN=http://localhost:3001
 ```
 
