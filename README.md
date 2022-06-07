@@ -3,6 +3,24 @@ A demo application to showcase how to use [Atlas App Services](https://www.mongo
 
 Require a finger print reader device on the running demo host. Tested on Chrome web browser.
 
+## Prerequisite
+- Create an Atlas cluster
+- Enable DATA API
+- Create app services application.
+- Enable function auth with the follwing function:
+```
+ exports = async (loginPayload) => {
+    console.log(JSON.stringify(loginPayload));
+   
+
+    const user = await context.services.get("mongodb-atlas").db("sample_webauthn").collection("users").findOne({id : loginPayload.username});
+    return user.authenticator.credID;
+
+
+  };
+```
+
+
 ## Install
 ```
 cd realm-webauthn-fingerprint-auth/example
