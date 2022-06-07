@@ -1,5 +1,5 @@
 # Atlas-webauthn-fingerprint-auth
-A demo application to showcase how to use Atlas App Services, Atlas and [WebAuthn](https://webauthn.guide/) package to fingerprint authenticate users on websites
+A demo application to showcase how to use [Atlas App Services](https://www.mongodb.com/docs/atlas/app-services/), [Atlas](https://www.mongodb.com/atlas) and [WebAuthn](https://webauthn.guide/) package to fingerprint authenticate users on websites
 
 Require a finger print reader device on the running demo host. Tested on Chrome web browser.
 
