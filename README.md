@@ -10,8 +10,7 @@ Require a finger print reader device on the running demo host. Tested on Chrome 
 - Enable function auth with the follwing function:
 ```
  exports = async (loginPayload) => {
-    console.log(JSON.stringify(loginPayload));
-   
+ 
 
     const user = await context.services.get("mongodb-atlas").db("sample_webauthn").collection("users").findOne({id : loginPayload.username});
     return user.authenticator.credID;
