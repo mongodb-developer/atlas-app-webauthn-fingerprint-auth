@@ -25,7 +25,7 @@ import { strict as assert } from 'assert';
   const [success, setSuccess] = useState('')
   const [webauthn] = useState(new Client())
 
-  const app = new Realm.App({ id: "webauthn-example-fmwub"});
+  const app = new Realm.App({ id: process.env.CLUSTER_NAME});
 
   function onRegister () {
     if (username === "") {
